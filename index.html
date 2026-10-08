@@ -1,144 +1,461 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Natur’Apprendre – Plateforme éducative bien-être</title>
 
-  <!-- Meta RGPD / accessibilité -->
-  <meta name="description"
-    content="Natur’Apprendre est une plateforme éducative dédiée à la compréhension des pratiques de bien-être naturel, dans une démarche responsable et respectueuse des données personnelles.">
+  <title>Natur’Apprendre – Découvrir le vivant et s’en inspirer</title>
 
-  <!-- Lien CSS (à venir) -->
+  <meta
+    name="description"
+    content="Natur’Apprendre est un site éducatif consacré aux animaux, aux végétaux, aux cycles naturels et aux inventions inspirées du vivant."
+  >
+
+  <meta name="theme-color" content="#356A48">
+
+  <!-- Feuille de styles -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <!-- ===============================
-  HEADER + NAVIGATION
-  =============================== -->
+       EN-TÊTE ET NAVIGATION
+  ================================ -->
   <header>
     <div class="logo">
       <h1>Natur’Apprendre</h1>
-      <p>Comprendre les pratiques naturelles, en toute responsabilité</p>
+      <p>Observer la nature, comprendre le vivant, s’en inspirer.</p>
     </div>
 
     <nav aria-label="Navigation principale">
       <ul>
         <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#ateliers">Ateliers & ressources</a></li>
-        <li><a href="#articles">Articles pédagogiques</a></li>
-        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#animaux">Les animaux</a></li>
+        <li><a href="#vegetaux">Les végétaux</a></li>
+        <li><a href="#cycles-naturels">Les cycles naturels</a></li>
+        <li><a href="#inspirations">Quand la nature inspire l’humain</a></li>
+        <li><a href="#apropos">À propos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="accueil">
+
+    <!-- ===============================
+         INTRODUCTION
+    ================================ -->
+    <section aria-labelledby="intro-title">
+      <h2 id="intro-title">
+        Bienvenue sur Natur’Apprendre
+      </h2>
+
+      <p>
+        La nature est un monde fascinant, riche de mécanismes,
+        d’adaptations et d’interactions que nous pouvons apprendre
+        à observer et à comprendre.
+      </p>
+
+      <p>
+        Natur’Apprendre vous invite à découvrir les animaux,
+        les végétaux et les cycles naturels, puis à explorer
+        ce que le vivant inspire à l’être humain, notamment
+        dans le domaine du biomimétisme.
+      </p>
+
+      <p>
+        Des connaissances accessibles, des découvertes étonnantes
+        et des idées pour regarder la nature autrement.
+      </p>
+    </section>
+
+
+    <!-- ===============================
+         PARTIE 1 : LES ANIMAUX
+    ================================ -->
+    <section id="animaux" aria-labelledby="animaux-title">
+      <h2 id="animaux-title">1. Les animaux</h2>
+
+      <p>
+        Des profondeurs marines aux forêts, les animaux présentent
+        une grande diversité de formes, de comportements et de
+        stratégies d’adaptation. Découvrons comment ils vivent
+        et interagissent avec leur environnement.
+      </p>
+
+      <div class="categories-animaux">
+
+        <article>
+          <h3>Les oiseaux</h3>
+          <p>
+            Leurs déplacements, leurs migrations, leurs chants,
+            leurs nids et leurs capacités d’adaptation.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les mammifères</h3>
+          <p>
+            Leur diversité, leurs modes de vie, leur communication
+            et leurs comportements sociaux.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les animaux marins</h3>
+          <p>
+            La vie dans les océans, les adaptations au milieu aquatique
+            et les relations entre espèces.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les insectes et autres petits animaux</h3>
+          <p>
+            Leur rôle dans les écosystèmes, leurs capacités
+            et leurs étonnantes stratégies de survie.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les reptiles et les amphibiens</h3>
+          <p>
+            Leurs caractéristiques, leurs modes de vie et
+            leur adaptation aux conditions environnementales.
+          </p>
+        </article>
+
+        <article>
+          <h3>Comportements et stratégies de survie</h3>
+          <p>
+            Coopération, camouflage, communication, orientation
+            et autres mécanismes observés chez les animaux.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- ===============================
+         PARTIE 2 : LES VÉGÉTAUX
+    ================================ -->
+    <section id="vegetaux" aria-labelledby="vegetaux-title">
+      <h2 id="vegetaux-title">2. Les végétaux</h2>
+
+      <p>
+        Les plantes savent capter la lumière, se développer,
+        se reproduire et s’adapter à des environnements variés.
+        Partons à la découverte de leurs particularités
+        et de leur rôle dans le monde vivant.
+      </p>
+
+      <div class="categories-vegetaux">
+
+        <article>
+          <h3>Les arbres et les arbustes</h3>
+          <p>
+            Leur croissance, leurs racines, leurs feuilles
+            et leurs relations avec les autres organismes.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les fleurs et les plantes sauvages</h3>
+          <p>
+            La diversité des fleurs, la pollinisation
+            et les relations avec les insectes.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les plantes cultivées</h3>
+          <p>
+            Les plantes alimentaires, leurs besoins
+            et leur développement.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les graines, les fruits et la germination</h3>
+          <p>
+            Comment les plantes se reproduisent,
+            dispersent leurs graines et donnent naissance
+            à de nouveaux individus.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les mousses et les fougères</h3>
+          <p>
+            Des végétaux aux caractéristiques particulières,
+            présents dans de nombreux milieux.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les adaptations des végétaux</h3>
+          <p>
+            Comment les plantes répondent aux contraintes
+            de leur environnement, comme le manque d’eau
+            ou de lumière.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- ===============================
+         PARTIE 3 : LES CYCLES NATURELS
+    ================================ -->
+    <section id="cycles-naturels"
+      aria-labelledby="cycles-title">
+
+      <h2 id="cycles-title">3. Les cycles naturels</h2>
+
+      <p>
+        La nature est rythmée par des cycles et des transformations.
+        Les comprendre permet de mieux observer le fonctionnement
+        de notre planète et les relations entre les êtres vivants
+        et leur environnement.
+      </p>
+
+      <div class="categories-cycles">
+
+        <article>
+          <h3>Les saisons</h3>
+          <p>
+            Les changements au fil de l’année et leurs effets
+            sur les animaux, les végétaux et les paysages.
+          </p>
+        </article>
+
+        <article>
+          <h3>Le cycle de l’eau</h3>
+          <p>
+            Évaporation, condensation, précipitations et circulation
+            de l’eau dans les milieux naturels.
+          </p>
+        </article>
+
+        <article>
+          <h3>Le jour et la nuit</h3>
+          <p>
+            L’alternance entre jour et nuit et ses effets
+            sur les rythmes des êtres vivants.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les cycles de vie</h3>
+          <p>
+            Naissance, croissance, développement, vieillissement
+            et différentes étapes de la vie.
+          </p>
+        </article>
+
+        <article>
+          <h3>La reproduction et les générations</h3>
+          <p>
+            Les mécanismes qui permettent aux espèces
+            de se reproduire et de se renouveler.
+          </p>
+        </article>
+
+        <article>
+          <h3>La décomposition et le recyclage de la matière</h3>
+          <p>
+            Comment les organismes décomposeurs contribuent
+            à la transformation et à la circulation de la matière.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les écosystèmes et leurs évolutions</h3>
+          <p>
+            Les relations entre les êtres vivants et leur milieu,
+            ainsi que les transformations des écosystèmes au fil du temps.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- ===============================
+         PARTIE 4 : LA NATURE INSPIRE L'HUMAIN
+    ================================ -->
+    <section id="inspirations"
+      aria-labelledby="inspirations-title">
+
+      <h2 id="inspirations-title">
+        4. Quand la nature inspire l’humain
+      </h2>
+
+      <p>
+        Observer le vivant peut ouvrir de nouvelles perspectives.
+        Des formes naturelles aux mécanismes biologiques, la nature
+        inspire des inventions, des matériaux et des solutions
+        techniques.
+      </p>
+
+      <p>
+        Cette rubrique explore notamment le biomimétisme et
+        la biomimétique : des approches qui étudient le vivant
+        pour imaginer ou concevoir des solutions répondant
+        à des besoins humains.
+      </p>
+
+      <div class="categories-inspirations">
+
+        <article>
+          <h3>Les grandes inventions inspirées de la nature</h3>
+          <p>
+            Découvrons des inventions et des objets dont la conception
+            s’est inspirée d’observations du monde vivant.
+          </p>
+        </article>
+
+        <article>
+          <h3>Le biomimétisme et la biomimétique</h3>
+          <p>
+            Comprendre ces approches, leurs principes et la manière
+            dont elles s’appuient sur l’étude du vivant.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les matériaux et les technologies</h3>
+          <p>
+            Des surfaces aux structures, explorons les matériaux
+            et les technologies inspirés de phénomènes naturels.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les bâtiments et les solutions inspirés des écosystèmes</h3>
+          <p>
+            Découvrons comment certaines caractéristiques du vivant
+            et des écosystèmes peuvent inspirer l’architecture,
+            la ventilation ou la gestion des ressources.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les innovations en cours et les pistes pour l’avenir</h3>
+          <p>
+            Des recherches prometteuses aux applications en développement,
+            découvrons les possibilités et les limites des solutions
+            inspirées de la nature.
+          </p>
+        </article>
+
+        <article>
+          <h3>Les réflexions et les idées que nous inspire la nature</h3>
+          <p>
+            Prenons du recul sur les mécanismes du vivant et sur
+            les idées qu’ils peuvent susciter dans nos façons
+            de concevoir, de créer et d’agir.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- ===============================
+         À PROPOS DE NATUR'APPRENDRE
+    ================================ -->
+    <section id="apropos" aria-labelledby="apropos-title">
+
+      <h2 id="apropos-title">À propos de Natur’Apprendre</h2>
+
+      <h3>Notre démarche</h3>
+
+      <p>
+        Natur’Apprendre a pour objectif de rendre la découverte
+        du vivant accessible à tous, en proposant des contenus
+        pédagogiques clairs et documentés.
+      </p>
+
+      <p>
+        Le site cherche à encourager la curiosité, à développer
+        les connaissances sur la nature et à faire découvrir
+        les liens entre les phénomènes naturels et les réalisations
+        humaines.
+      </p>
+
+      <h3>Nos engagements éditoriaux</h3>
+
+      <ul>
+        <li>Privilégier des informations vérifiables et des sources fiables.</li>
+        <li>Distinguer les faits scientifiques des réflexions personnelles.</li>
+        <li>Présenter avec précision les inventions et les applications du biomimétisme.</li>
+        <li>Signaler lorsqu’une technologie est encore expérimentale.</li>
+        <li>Respecter le vivant et encourager sa compréhension.</li>
+      </ul>
+
+    </section>
+
+
+    <!-- ===============================
+         CONTACT
+    ================================ -->
+    <section id="contact" aria-labelledby="contact-title">
+
+      <h2 id="contact-title">Contact</h2>
+
+      <p>
+        Une question, une suggestion de sujet ou une découverte
+        à partager ?
+      </p>
+
+      <p>
+        Les informations de contact seront ajoutées ici.
+      </p>
+
+      <!--
+        À compléter lorsque l'adresse de contact
+        et le mode d'envoi des messages seront définis.
+      -->
+
+    </section>
+
+  </main>
+
+
+  <!-- ===============================
+       PIED DE PAGE
+  ================================ -->
+  <footer>
+
+    <nav aria-label="Navigation secondaire">
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="Donnees.html">Comprendre vos données</a></li>
         <li><a href="confidentialite.html">Politique de confidentialité</a></li>
         <li><a href="mentionsLegales.html">Mentions légales</a></li>
       </ul>
     </nav>
-  </header>
-  <main id="accueil">
 
-    <!-- SECTION 1 : INTRODUCTION -->
-    <section aria-labelledby="intro-title">
-      <h2 id="intro-title">Une plateforme éducative, humaine et responsable</h2>
-      <p>
-        Natur’Apprendre propose des contenus pédagogiques autour du bien-être naturel
-        (nutrition, plantes, huiles essentielles), dans une démarche non médicale
-        et respectueuse des personnes.
-      </p>
-    </section>
+    <p>
+      &copy; <span id="annee">2026</span> Natur’Apprendre.
+      Tous droits réservés.
+    </p>
 
+    <p>
+      Observer la nature, comprendre le vivant, s’en inspirer.
+    </p>
 
-    <!-- SECTION 2 : ATELIERS & RESSOURCES -->
-    <section id="ateliers" aria-labelledby="ateliers-title">
-      <h2 id="ateliers-title">Ateliers & ressources pédagogiques</h2>
-
-      <article>
-        <h3>Initiation à la nutrition de qualité</h3>
-        <p>Comprendre les bases d’une alimentation équilibrée et consciente.</p>
-      </article>
-
-      <article>
-        <h3>Découverte de la phytothérapie</h3>
-        <p>Introduction aux plantes et à leurs usages traditionnels.</p>
-      </article>
-
-      <article>
-        <h3>Huiles essentielles : bases et précautions</h3>
-        <p>Approche pédagogique et responsable de l’aromathérapie.</p>
-      </article>
-    </section>
-
-
-    <!-- SECTION 3 : ARTICLES PÉDAGOGIQUES -->
-    <section id="articles" aria-labelledby="articles-title">
-      <h2 id="articles-title">Articles pédagogiques</h2>
-
-      <article>
-        <h3>Bien-être naturel : de quoi parle-t-on ?</h3>
-      </article>
-
-      <article>
-        <h3>Pourquoi privilégier une approche éducative ?</h3>
-      </article>
-
-      <article>
-        <h3>Information, prévention et responsabilité</h3>
-      </article>
-    </section>
-
-
-    <!-- SECTION 4 : NEWSLETTER -->
-    <section id="newsletter" aria-labelledby="newsletter-title">
-      <h2 id="newsletter-title">Recevoir notre newsletter éducative</h2>
-      <form>
-        <label for="email">Adresse email</label>
-        <input type="email" id="email" name="email" required>
-
-        <label>
-          <input type="checkbox" required>
-          J’accepte de recevoir des informations pédagogiques
-        </label>
-
-        <button type="submit">S’inscrire</button>
-      </form>
-    </section>
-
-
-    <!-- SECTION 5 : CONTACT -->
-    <section id="contact" aria-labelledby="contact-title">
-      <h2 id="contact-title">Nous contacter</h2>
-      <form>
-        <label for="name">Nom</label>
-        <input type="text" id="name" name="name">
-
-        <label for="contact-email">Email</label>
-        <input type="email" id="contact-email" name="contact-email" required>
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
-
-        <button type="submit">Envoyer</button>
-      </form>
-    </section>
-
-  </main>
-
-  <footer>
-    <nav aria-label="Navigation secondaire">
-      <ul>
-        <li><a href="confidentialite.html">Politique de confidentialité</a></li>
-        <li><a href="mentionsLegales.html">Mentions légales</a></li>
-        <li><a href="Donnees.html">Vos données</a></li>
-      </ul>
-    </nav>
-
-    <p>&copy; 2025 Natur’Apprendre – Projet pédagogique fictif</p>
   </footer>
-<script src="script.js"></script>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 
 </body>
-
 </html>

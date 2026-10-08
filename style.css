@@ -7,7 +7,7 @@
   --dore-doux: #C9A24D;
   --blanc-creme: #FAF9F6;
   --noir-doux: #1E1E1E;
-  --gris-moderne: #6F7780;
+  --gris-moderne: #31363A;
 }
 
 * {
@@ -54,7 +54,8 @@ nav a {
 }
 
 nav a:hover, nav a:focus {
-  background-color: var(--rose-poudre);
+  background-color: var(--bleu-vert);
+  color: white;
 }
 
 main {
@@ -96,11 +97,19 @@ button {
   border: none;
   cursor: pointer;
   margin-top: 1rem;
+  transition: background-color 0.25s ease, transform 0.15s ease;
 }
+
+button:hover,
+button:focus-visible {
+  background-color: var(--dore-doux);
+  transform: translateY(-1px);
+}
+
 
 footer {
   background-color: var(--gris-moderne);
-  color: black;
+  color: white;
   padding: 1.5rem;
 }
 
