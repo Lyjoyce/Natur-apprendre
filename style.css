@@ -168,6 +168,8 @@ article p {
 }
 
 article:hover {
+  background-color: var(--blanc-creme);
+  border-left: 8px solid;
   border-left-color: var(--dore-doux);
   transform: translateY(-2px);
 }
